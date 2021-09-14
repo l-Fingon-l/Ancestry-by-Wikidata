@@ -80,6 +80,21 @@ def get_year(claim, text):
     return year
 
 
+def search_next(claim, text, depth, qid, sqid, year, name):
+    if claim in text['entities'][qid]['claims']:  # parent
+        parent = text['entities'][qid]['claims'][claim][0]['mainsnak']['datavalue']['value']['id']
+        result = search(parent, depth, sqid, year)
+        if result == 'found':
+            print('              ||          ')
+            print('              \\/         ')
+            print('    ' + name)
+            return 'found'
+        elif result == 'return':
+            return 'not found'
+
+    return 'continue'
+
+
 def search_description(description):
     result = {'birth_year': None, 'death_year': None}
     for lang in description.values():
@@ -162,10 +177,8 @@ def search(qid, depth, sqid, year):
         birth_age = 5  # damn it en.wikipedia.org/wiki/Lina_Medina
         lifetime = 95  # if one of the parents is 100 years older than search then drop the other
 
-        # date of birth check
+        # date of birth & date of death check
         birth_year = get_year('P569', text['entities'][qid]['claims'])
-
-        # date of death check
         death_year = get_year('P570', text['entities'][qid]['claims'])
 
         # first try (if it works then we wouldn't have to compute the regexp)
@@ -195,24 +208,12 @@ def search(qid, depth, sqid, year):
                         return 'return'
 
     # now we know this person is a valid descendant so we continue to search up the tree
-    if 'P22' in text['entities'][qid]['claims']:  # father
-        father = text['entities'][qid]['claims']['P22'][0]['mainsnak']['datavalue']['value']['id']
-        result = search(father, depth, sqid, year)
-        if result == 'found':
-            print('              ||          ')
-            print('              \\/         ')
-            print('    ' + name)
-            return 'found'
-        elif result == 'return':
-            return 'not found'
+    result = search_next('P22', text, depth, qid, sqid, year, name)  # father
+    if result == 'found' or result == 'return':
+        return result
 
-    if 'P25' in text['entities'][qid]['claims']:  # mother
-        mother = text['entities'][qid]['claims']['P25'][0]['mainsnak']['datavalue']['value']['id']
-        result = search(mother, depth, sqid, year)
-        if result == 'found':
-            print('              ||          ')
-            print('              \\/         ')
-            print('    ' + name)
-            return 'found'
+    result = search_next('P25', text, depth, qid, sqid, year, name)  # mother
+    if result == 'found' or result == 'return':
+        return result
 
     return 'not found'
