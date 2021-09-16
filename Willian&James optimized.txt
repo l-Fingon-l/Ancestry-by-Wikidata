@@ -1,0 +1,67 @@
+    Prince William, Duke of Cambridge      <=>      James II of England
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1.56s spent for this query. 1 QIDs requested at once.
+1.01s spent for this query. 2 QIDs requested at once.
+1.11s spent for this query. 4 QIDs requested at once.
+0.97s spent for this query. 8 QIDs requested at once.
+1.19s spent for this query. 16 QIDs requested at once.
+1.44s spent for this query. 32 QIDs requested at once.
+2.03s spent for this query. 50 QIDs requested at once.
+2.08s spent for this query. 50 QIDs requested at once.
+1.61s spent for this query. 50 QIDs requested at once.
+1.8s spent for this query. 50 QIDs requested at once.
+2.19s spent for this query. 50 QIDs requested at once.
+1.42s spent for this query. 50 QIDs requested at once.
+1.22s spent for this query. 50 QIDs requested at once.
+1.74s spent for this query. 50 QIDs requested at once.
+1.53s spent for this query. 50 QIDs requested at once.
+1.38s spent for this query. 50 QIDs requested at once.
+1.41s spent for this query. 50 QIDs requested at once.
+1.52s spent for this query. 50 QIDs requested at once.
+1.3s spent for this query. 50 QIDs requested at once.
+1.3s spent for this query. 50 QIDs requested at once.
+1.97s spent for this query. 50 QIDs requested at once.
+1.89s spent for this query. 50 QIDs requested at once.
+1.28s spent for this query. 50 QIDs requested at once.
+1.42s spent for this query. 50 QIDs requested at once.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    James II of England
+              ||          
+              \/         
+    Henrietta FitzJames
+              ||          
+              \/         
+    James Waldegrave, 1st Earl Waldegrave
+              ||          
+              \/         
+    James Waldegrave, 2nd Earl Waldegrave
+              ||          
+              \/         
+    Anne Horatia Waldegrave
+              ||          
+              \/         
+    Horace Seymour
+              ||          
+              \/         
+    Adelaide Seymour
+              ||          
+              \/         
+    Charles Spencer, 6th Earl Spencer
+              ||          
+              \/         
+    Albert Spencer, 7th Earl Spencer
+              ||          
+              \/         
+    John Spencer, 8th Earl Spencer
+              ||          
+              \/         
+    Diana, Princess of Wales
+              ||          
+              \/         
+    Prince William, Duke of Cambridge
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+957 royals were examined.
+37.39s spent at total.

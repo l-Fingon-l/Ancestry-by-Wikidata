@@ -1,0 +1,50 @@
+    Rose Leslie      <=>      Charles II of England
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0.66s spent for this query. 1 QIDs requested at once.
+0.44s spent for this query. 2 QIDs requested at once.
+0.67s spent for this query. 4 QIDs requested at once.
+0.74s spent for this query. 7 QIDs requested at once.
+0.8s spent for this query. 11 QIDs requested at once.
+0.92s spent for this query. 20 QIDs requested at once.
+1.19s spent for this query. 33 QIDs requested at once.
+1.16s spent for this query. 43 QIDs requested at once.
+1.2s spent for this query. 50 QIDs requested at once.
+1.25s spent for this query. 50 QIDs requested at once.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Charles II of England
+              ||          
+              \/         
+    Charlotte Lee, Countess of Lichfield
+              ||          
+              \/         
+    George Lee, 2nd Earl of Lichfield
+              ||          
+              \/         
+    Lady Anne Lee
+              ||          
+              \/         
+    Charles Clifford, 6th Baron Clifford of Chudleigh
+              ||          
+              \/         
+    Christina Maria Clifford
+              ||          
+              \/         
+    Frederick Weld
+              ||          
+              \/         
+    Humphrey Weld
+              ||          
+              \/         
+    Humphrey Weld
+              ||          
+              \/         
+    Candida Weld
+              ||          
+              \/         
+    Rose Leslie
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+200 royals were examined.
+10.08s spent at total.

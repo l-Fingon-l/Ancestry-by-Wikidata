@@ -1,0 +1,67 @@
+    Prince William, Duke of Cambridge      <=>      Charles II of England
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0.67s spent for this query. 1 QIDs requested at once.
+0.91s spent for this query. 2 QIDs requested at once.
+0.98s spent for this query. 4 QIDs requested at once.
+1.02s spent for this query. 8 QIDs requested at once.
+1.16s spent for this query. 16 QIDs requested at once.
+1.61s spent for this query. 32 QIDs requested at once.
+1.84s spent for this query. 50 QIDs requested at once.
+1.97s spent for this query. 50 QIDs requested at once.
+1.62s spent for this query. 50 QIDs requested at once.
+1.5s spent for this query. 50 QIDs requested at once.
+1.56s spent for this query. 50 QIDs requested at once.
+1.53s spent for this query. 50 QIDs requested at once.
+1.2s spent for this query. 50 QIDs requested at once.
+1.45s spent for this query. 50 QIDs requested at once.
+1.64s spent for this query. 50 QIDs requested at once.
+1.22s spent for this query. 50 QIDs requested at once.
+1.33s spent for this query. 50 QIDs requested at once.
+1.47s spent for this query. 50 QIDs requested at once.
+1.25s spent for this query. 50 QIDs requested at once.
+1.33s spent for this query. 50 QIDs requested at once.
+2.28s spent for this query. 50 QIDs requested at once.
+1.45s spent for this query. 50 QIDs requested at once.
+1.25s spent for this query. 50 QIDs requested at once.
+1.59s spent for this query. 50 QIDs requested at once.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    Charles II of England
+              ||          
+              \/         
+    Mary Stuart
+              ||          
+              \/         
+    Charlotte Sarsfield
+              ||          
+              \/         
+    Anne Vesey
+              ||          
+              \/         
+    Charles Bingham, 1st Earl of Lucan
+              ||          
+              \/         
+    Lavinia Spencer, Countess Spencer
+              ||          
+              \/         
+    Frederick Spencer, 4th Earl Spencer
+              ||          
+              \/         
+    Charles Spencer, 6th Earl Spencer
+              ||          
+              \/         
+    Albert Spencer, 7th Earl Spencer
+              ||          
+              \/         
+    John Spencer, 8th Earl Spencer
+              ||          
+              \/         
+    Diana, Princess of Wales
+              ||          
+              \/         
+    Prince William, Duke of Cambridge
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+943 royals were examined.
+34.83s spent at total.

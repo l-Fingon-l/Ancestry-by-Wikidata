@@ -1,0 +1,64 @@
+    Catherine Gordon Byron      <=>      James I of Scotland
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+0.31s spent for this query. 1 QIDs requested at once.
+0.49s spent for this query. 2 QIDs requested at once.
+0.61s spent for this query. 4 QIDs requested at once.
+0.72s spent for this query. 7 QIDs requested at once.
+0.72s spent for this query. 7 QIDs requested at once.
+0.7s spent for this query. 10 QIDs requested at once.
+0.62s spent for this query. 11 QIDs requested at once.
+0.76s spent for this query. 17 QIDs requested at once.
+1.05s spent for this query. 27 QIDs requested at once.
+1.03s spent for this query. 35 QIDs requested at once.
+1.24s spent for this query. 48 QIDs requested at once.
+1.58s spent for this query. 50 QIDs requested at once.
+1.48s spent for this query. 50 QIDs requested at once.
+1.24s spent for this query. 50 QIDs requested at once.
+1.26s spent for this query. 50 QIDs requested at once.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    James I of Scotland
+              ||          
+              \/         
+    James II of Scotland
+              ||          
+              \/         
+    James III of Scotland
+              ||          
+              \/         
+    James IV of Scotland
+              ||          
+              \/         
+    Lady Janet Stewart
+              ||          
+              \/         
+    John Fleming, 5th Lord Fleming
+              ||          
+              \/         
+    Jane Fleming
+              ||          
+              \/         
+    John Bruce of Airth
+              ||          
+              \/         
+    Christian Bruce
+              ||          
+              \/         
+    John Innes, 5th of Edingight
+              ||          
+              \/         
+    John Innes, 6th of Edingight
+              ||          
+              \/         
+    Alexander Innes
+              ||          
+              \/         
+    Catherine Innes
+              ||          
+              \/         
+    Catherine Gordon Byron
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+350 royals were examined.
+14.67s spent at total.
