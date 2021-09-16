@@ -1,4 +1,5 @@
 from ancestry import ancestry
+from ancestry_optimized import ancestry_optimized
 
 James = 'Q126188'
 William = 'Q36812'
@@ -21,5 +22,6 @@ Queen_Victoria = 'Q9439'
 Princess_Charlotte_of_Cambridge = 'Q18002970'
 The_Queen = 'Q9682'
 Patrick_Lion = 'Q7147046'
+Frances_Bowes_Lyon = 'Q2592020'
 
-ancestry(Simon_Tolkien, JRR)
+ancestry_optimized(William, James)
