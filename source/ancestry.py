@@ -120,6 +120,10 @@ def search_description(description):
 
 
 def ancestry(article1, article2):
+    global amount, tablichka  # init
+    amount = 0
+    tablichka = dict()
+
     qid = get_qid(article1)
     sqid = get_qid(article2)
 
