@@ -10,7 +10,6 @@ tablichka = set()
 
 
 def find_name(qid, text):
-    text = text['entities'][qid]
     if 'labels' in text:
         labels = text['labels']
 
@@ -136,10 +135,10 @@ def ancestry(article1, article2):
 
     text = request(sqid, 'labels|claims')
     year = get_year('P569', text['entities'][sqid]['claims'])
-    search_name = find_name(sqid, text)
+    search_name = find_name(sqid, text['entities'][sqid])
 
     text = request(qid, 'labels')
-    name = find_name(qid, text)
+    name = find_name(qid, text['entities'][qid])
 
     print('\n    ' + name + '      <=>      ' + search_name)
     print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
@@ -164,7 +163,7 @@ def search(qid, depth, sqid, year):
     text = request(qid, 'labels|claims|descriptions')
 
     # search name
-    name = find_name(qid, text)
+    name = find_name(qid, text['entities'][qid])
     space = '|   ' * depth
     print(space + '=>' + name)
 
