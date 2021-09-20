@@ -3,6 +3,7 @@ import re
 from collections import deque
 import asyncio
 import time
+from urllib.parse import unquote
 
 amount = 0
 tablichka = dict()
@@ -33,15 +34,20 @@ def find_name(qid, text):
 
 
 def get_qid(article):  # a logic for obtaining the QID by varying input (article name / qid / url)
+    article = unquote(article)  # safely convert the utf8 of browser url
     if article[0] == 'Q':
         qid = article
     else:
         split = article.split('.', 2)
         if len(split) == 3 and split[1] == 'wikipedia':
             article_name = article.rsplit('/', 1)[1]
+            wiki = split[0]
+            if split[0][:8] != 'https://':
+                wiki = 'https://' + split[0]
         else:
             article_name = article
-        url = 'https://en.wikipedia.org/w/api.php'
+            wiki = 'https://en'
+        url = wiki + '.wikipedia.org/w/api.php'
         params = {
             'action': 'query',
             'prop': 'pageprops',
@@ -114,6 +120,11 @@ def end_thread(queue):
 
 
 def ancestry_optimized(article1, article2):
+    global amount, tablichka, found  # init
+    amount = 0
+    tablichka = dict()
+    found = None
+
     started_at = time.monotonic()
 
     qid = get_qid(article1)
@@ -140,7 +151,10 @@ def ancestry_optimized(article1, article2):
     print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
     print(str(amount) + ' royals were examined.')
 
-    print(str(round(time.monotonic() - started_at, 2)) + 's spent at total.')
+    time_spent = time.monotonic() - started_at
+    print(str(round(time_spent, 2)) + 's spent at total.')
+
+    return time_spent
 
 
 #########################

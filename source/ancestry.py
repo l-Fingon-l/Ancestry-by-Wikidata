@@ -1,5 +1,6 @@
 import requests
 import re
+from urllib.parse import unquote
 
 amount = 0
 tablichka = set()
@@ -28,15 +29,20 @@ def find_name(qid, text):
 
 
 def get_qid(article):  # a logic for obtaining the QID by varying input (article name / qid / url)
+    article = unquote(article)  # safely convert the utf8 of browser url
     if article[0] == 'Q':
         qid = article
     else:
         split = article.split('.', 2)
         if len(split) == 3 and split[1] == 'wikipedia':
             article_name = article.rsplit('/', 1)[1]
+            wiki = split[0]
+            if split[0][:8] != 'https://':
+                wiki = 'https://' + split[0]
         else:
             article_name = article
-        url = 'https://en.wikipedia.org/w/api.php'
+            wiki = 'https://en'
+        url = wiki + '.wikipedia.org/w/api.php'
         params = {
             'action': 'query',
             'prop': 'pageprops',
