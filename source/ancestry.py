@@ -1,5 +1,6 @@
 import requests
 import re
+import time
 from urllib.parse import unquote
 
 amount = 0
@@ -124,10 +125,12 @@ def search_description(description):
 #########################
 
 
-def ancestry(article1, article2):
+def ancestry(article1, article2, unlimited_depth=False):
     global amount, tablichka  # init
     amount = 0
     tablichka = set()
+
+    started_at = time.monotonic()
 
     qid = get_qid(article1)
     sqid = get_qid(article2)
@@ -135,13 +138,19 @@ def ancestry(article1, article2):
     if not qid[0] == 'Q':
         print(f'Fix a descendant link: "{article1}" , please!')
         return
-    if not sqid[0] == 'Q':
-        print(f'Fix an ancestor link: "{article2}", please!')
-        return
+    
+    if unlimited_depth:
+        year = -99999
+        search_name = ''
+        sqid = '-1'
+    else:
+        if not sqid[0] == 'Q':
+            print(f'Fix an ancestor link: "{article2}", please!')
+            return
 
-    text = request(sqid, 'labels|claims')
-    year = get_year('P569', text['entities'][sqid]['claims'])
-    search_name = find_name(sqid, text['entities'][sqid])
+        text = request(sqid, 'labels|claims')
+        year = get_year('P569', text['entities'][sqid]['claims'])
+        search_name = find_name(sqid, text['entities'][sqid])
 
     text = request(qid, 'labels')
     name = find_name(qid, text['entities'][qid])
@@ -152,6 +161,9 @@ def ancestry(article1, article2):
         print('\n' + name + ' is not a descendant of ' + search_name)
     print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
     print(str(amount) + ' royals were examined.')
+
+    time_spent = time.monotonic() - started_at
+    print(str(round(time_spent, 2)) + 's spent at total.')
 
 
 #########################
