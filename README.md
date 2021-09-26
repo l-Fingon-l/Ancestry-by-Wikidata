@@ -1,4 +1,12 @@
 # Ancestry by Wikidata
+## Interactive out-of-the-box notebooks!
+Classic Binder version [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/l-Fingon-l/Ancestry-by-Wikidata/main?urlpath=lab/tree/Royal%20Ancestry.ipynb)  
+
+Google Colab version 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1B4B5yrb6KoRsJcxEQasX3AnSWWXmohHc?usp=sharing#scrollTo=BmdyBNJ5n5Ae)  
+(a bit more modern but you'll need a Google account)
+
+---
 ## It all began on a rainy...
 It all began with me learning Irish. Well, it all began with me learning Scottish Gaelic. In fact, I've been fascinated by Сeltic culture, literature, music and language for as long as I can remember. I have had no serious intentions of giving a try to such an exotic language ever since I hadn't succeeded in my Sindarin attempts a couple of years ago, though.  
 And then.. the covid struck.  
@@ -84,11 +92,3 @@ It could've been the case, my grannie would've been able to download the script 
 Packing ***.py*** into ***.exe***? Possible but the hassle is still there.  
 Creating a dedicated website to run Python script in the back-end? Possible. As a drawback, the code would be way too difficult to see then.  
 However, a superior solution existed: Jupyter notebook. This kind of document allows you to mix text and Python code altogether. Moreover, you could basically run it from the very notebook. Excellent!
-
----
-## Interactive out-of-the-box notebooks!
-Classic Binder version [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/l-Fingon-l/Ancestry-by-Wikidata/main?urlpath=lab/tree/Royal%20Ancestry.ipynb)  
-
-Google Colab version 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1B4B5yrb6KoRsJcxEQasX3AnSWWXmohHc?usp=sharing#scrollTo=BmdyBNJ5n5Ae)  
-(a bit more modern but you'll need a Google account)
