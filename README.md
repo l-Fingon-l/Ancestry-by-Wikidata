@@ -17,12 +17,12 @@ These kinds of questions are incredibly easy to explore with the help of this to
 <div align="center">
   <div>  
     <b>1. Go to one of the interactive notebooks listed above and run the code:</b><br><br>
-    <img src="source/illustrations/code-cell-highlighted.png" alt="code-cell-highlighted" width="70%"/>
+    <img src="source/illustrations/code-cell-highlighted.png" alt="code-cell-highlighted" width="60%"/>
   </div>
     
   <div>
     <br><b>2. Get the live interactive output. As simple as that!</b><br><br>
-    <img src="source/illustrations/output.png" alt="output" width="70%"/>
+    <img src="source/illustrations/output.png" alt="output" width="65%"/>
   </div>
 </div>
 
