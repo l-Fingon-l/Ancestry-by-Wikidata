@@ -54,7 +54,7 @@ You may even open the [main.py](source/main.py) code snippet and choose one of t
 It all began with me learning Irish. Well, it all began with me learning Scottish Gaelic. In fact, I've been fascinated by Сeltic culture, literature, music and language for as long as I can remember. I have had no serious intentions of giving a try to such an exotic language ever since I hadn't succeeded in my Sindarin attempts a couple of years ago, though.  
 And then.. the covid struck.  
 
-I have suddenly got plenty of time on my hands. And I decided to give it a go. However, quite soon I realised, the amount of different learning materials, such as videos, songs and simply dictionaries was way richer for it's twin-language - Irish Gaeilge. Not long after I'd come across an "Irish language and culture" course by Dublic City University and enrolled immediately.  
+I have suddenly got plenty of time on my hands. And I decided to give it a go. However, quite soon I realised, the amount of different learning materials, such as videos, songs and simply dictionaries was way richer for it's twin-language - Irish Gaeilge. Not long after I'd come across an "Irish language and culture" course by Dublin City University and enrolled immediately.  
 
 The course was great, for sure. But it lacked the practice which I have always considered the backbone for any learning process. Thus, I tried to enrich the acquisition by Irish folk songs which came incredibly handy. There was one I loved exceptionally, called Siúil a Rún.  
 
