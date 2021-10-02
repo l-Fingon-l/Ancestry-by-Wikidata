@@ -1,17 +1,60 @@
-# Ancestry by Wikidata
-## Interactive out-of-the-box notebooks!
-Classic Binder version [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/l-Fingon-l/Ancestry-by-Wikidata/main?urlpath=lab/tree/Royal%20Ancestry.ipynb)  
+<h1 align="center">Ancestry by Wikidata</h1>
 
-Google Colab version 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1B4B5yrb6KoRsJcxEQasX3AnSWWXmohHc?usp=sharing#scrollTo=BmdyBNJ5n5Ae)  
-(a bit more modern but you'll need a Google account)
+<h2 align="center">Try it out!</h2>
+
+<div align="center">
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1B4B5yrb6KoRsJcxEQasX3AnSWWXmohHc?usp=sharing#scrollTo=aTFF2WVgn59W) or
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/l-Fingon-l/Ancestry-by-Wikidata/visual_improvements?labpath=source%2FRoyal%20Ancestry.ipynb)
+
+Ever wondered if a particular person was a descendant of another? Was curious to find out whether current Prince William is an heir of King James II of England?  
+Or, perhaps, just wanted to exami someone's genealogical tree?  
+These kinds of questions are incredibly easy to explore with the help of this toolset. Moreover, it can be quite fun and exciting as well!  
+</div>
 
 ---
-## It all began on a rainy...
+<h1 align="center">How to use:</h1>
+<div align="center">
+  <div>  
+    <b>1. Go to one of the interactive notebooks listed above and run the code:</b><br><br>
+    <img src="source/illustrations/code-cell-highlighted.png" alt="code-cell-highlighted" width="60%"/>
+  </div>
+    
+  <div>
+    <br><b>2. Get the live interactive output. As simple as that!</b><br><br>
+    <img src="source/illustrations/output.png" alt="output" width="65%"/>
+  </div>
+</div>
+
+<h2 align="center">So What Do I Need To Know?</h2>
+
+This is a simple script for getting out the royal ancestry data from Wikidata.  
+There are 3 different ways to get the job done. You may toggle them with the <ins>"**optimized**"</ins> button.
+
+
+*   The ***first*** one is quite beautiful and insightful.
+*   The ***optimized*** one is A LOT faster (~50x) but is not so spectacular to watch after. You may want to use it for long queries or just to get a simple answer **yes** / **no** to your query.
+*   In case you just want to see the <ins>**family tree**</ins>, use the ***unlimited_depth*** option (this one is designed for the unoptimized version). It turns the depth restrictions off. The search will be much slower, though.
+
+Run the search by providing 2 sources: the ***descendant*** and the ***ancestor***.
+You may provide them in many ways:
+
+
+*   By article name: **Emma Watson**
+*   By url from English Wikipedia: **en.wikipedia.org/wiki/Emma_Watson**
+*   By Wikidata item ID: **Q39476**
+
+You may even open the [main.py](source/main.py) code snippet and choose one of the pre-described people.
+
+<ins>**Don't be afraid** to change the parameters!</ins> This is what actually makes this notebook so interactive and fun!  
+![parameters](source/illustrations/parameters.png)
+
+---
+<h1 align="center">It all began on a rainy...</h1>
 It all began with me learning Irish. Well, it all began with me learning Scottish Gaelic. In fact, I've been fascinated by Сeltic culture, literature, music and language for as long as I can remember. I have had no serious intentions of giving a try to such an exotic language ever since I hadn't succeeded in my Sindarin attempts a couple of years ago, though.  
 And then.. the covid struck.  
 
-I have suddenly got plenty of time on my hands. And I decided to give it a go. However, quite soon I realised, the amount of different learning materials, such as videos, songs and simply dictionaries was way richer for it's twin-language - Irish Gaeilge. Not long after I'd come across an "Irish language and culture" course by Dublic City University and enrolled immediately.  
+I have suddenly got plenty of time on my hands. And I decided to give it a go. However, quite soon I realised, the amount of different learning materials, such as videos, songs and simply dictionaries was way richer for it's twin-language - Irish Gaeilge. Not long after I'd come across an "Irish language and culture" course by Dublin City University and enrolled immediately.  
 
 The course was great, for sure. But it lacked the practice which I have always considered the backbone for any learning process. Thus, I tried to enrich the acquisition by Irish folk songs which came incredibly handy. There was one I loved exceptionally, called Siúil a Rún.  
 
@@ -92,3 +135,16 @@ It could've been the case, my grannie would've been able to download the script 
 Packing ***.py*** into ***.exe***? Possible but the hassle is still there.  
 Creating a dedicated website to run Python script in the back-end? Possible. As a drawback, the code would be way too difficult to see then.  
 However, a superior solution existed: Jupyter notebook. This kind of document allows you to mix text and Python code altogether. Moreover, you could basically run it from the very notebook. Excellent!
+
+In this project I use 2 different Jupyter Notebook hosting services: Google Colab & MyBinder. They share a fair amount of similarities, although there are some differences to be noted. Mainly:
+* Google Colab provides us with an extremely convenient way to parametrize the code. Binder does not have this feature and you'll have to change the code manually (even though it's fairly simple and straightforward of a task)
+* MyBinder does not require an account. You might need an existing Google account to use the Colab
+* It is not so easy to use additional (***.py***) files in Google Colab's notebook. This leads to the whole codebase being added to the notebook itself. There is an option to hide the cell's core code, nonetheless, which comes in pretty handy.  
+What this means is the pictures will not be a part of a notebook, as well. Which is not the case for MyBinder.
+
+<h2 align="center">So, what are you waiting for? Try it out yourself!</h2>
+
+<div align="center">
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1B4B5yrb6KoRsJcxEQasX3AnSWWXmohHc?usp=sharing#scrollTo=aTFF2WVgn59W) or
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/l-Fingon-l/Ancestry-by-Wikidata/visual_improvements?labpath=source%2FRoyal%20Ancestry.ipynb)
