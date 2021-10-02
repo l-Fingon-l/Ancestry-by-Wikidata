@@ -157,7 +157,7 @@ def ancestry(article1, article2, unlimited_depth=False):
 
     print('\n    ' + name + '      <=>      ' + search_name)
     print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
-    if not search(qid, -1, sqid, year) == 'found':
+    if search(qid, -1, sqid, year) != 'found' and not unlimited_depth:
         print('\n' + name + ' is not a descendant of ' + search_name)
     print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
     print(str(amount) + ' royals were examined.')
