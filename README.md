@@ -5,7 +5,7 @@
 <div align="center">
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1B4B5yrb6KoRsJcxEQasX3AnSWWXmohHc?usp=sharing#scrollTo=aTFF2WVgn59W) or
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/l-Fingon-l/Ancestry-by-Wikidata/visual_improvements?labpath=source%2FRoyal%20Ancestry.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/l-Fingon-l/Ancestry-by-Wikidata/main?labpath=source%2FRoyal%20Ancestry.ipynb)
 
 Ever wondered if a particular person was a descendant of another? Was curious to find out whether current Prince William is an heir of King James II of England?  
 Or, perhaps, just wanted to exami someone's genealogical tree?  
