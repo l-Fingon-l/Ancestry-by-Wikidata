@@ -139,7 +139,7 @@ However, a superior solution existed: Jupyter notebook. This kind of document al
 In this project I use 2 different Jupyter Notebook hosting services: Google Colab & MyBinder. They share a fair amount of similarities, although there are some differences to be noted. Mainly:
 * Google Colab provides us with an extremely convenient way to parametrize the code. Binder does not have this feature and you'll have to change the code manually (even though it's fairly simple and straightforward of a task)
 * MyBinder does not require an account. You might need an existing Google account to use the Colab
-* It is not so easy to use additional (*.py*) files in Google Colab's notebook. This leads to the whole codebase being added to the notebook itself. There is an option to hide the cell's core code, nonetheless, which comes in pretty handy.  
+* It is not so easy to use additional (***.py***) files in Google Colab's notebook. This leads to the whole codebase being added to the notebook itself. There is an option to hide the cell's core code, nonetheless, which comes in pretty handy.  
 What this means is the pictures will not be a part of a notebook, as well. Which is not the case for MyBinder.
 
 <h2 align="center">So, what are you waiting for? Try it out yourself!</h2>
