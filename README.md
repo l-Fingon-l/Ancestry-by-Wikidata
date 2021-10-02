@@ -147,4 +147,4 @@ What this means is the pictures will not be a part of a notebook, as well. Which
 <div align="center">
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1B4B5yrb6KoRsJcxEQasX3AnSWWXmohHc?usp=sharing#scrollTo=aTFF2WVgn59W) or
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/l-Fingon-l/Ancestry-by-Wikidata/visual_improvements?labpath=source%2FRoyal%20Ancestry.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/l-Fingon-l/Ancestry-by-Wikidata/main?labpath=source%2FRoyal%20Ancestry.ipynb)
