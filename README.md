@@ -13,7 +13,7 @@ These kinds of questions are incredibly easy to explore with the help of this to
 </div>
 
 ---
-<h1 align="center">How to use:</h1>
+<h2 align="center">How to use:</h2>
 <div style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-around;">
 
 1.Go to one of the interactive notebooks listed above and run the code:  
@@ -46,7 +46,7 @@ You may even open the [main.py](source/main.py) code snippet and choose one of t
 ![parameters](illustrations/parameters.png)
 
 ---
-<h1 align="center">It all began on a rainy...</h1>
+<h2 align="center">It all began on a rainy...</h2>
 It all began with me learning Irish. Well, it all began with me learning Scottish Gaelic. In fact, I've been fascinated by Сeltic culture, literature, music and language for as long as I can remember. I have had no serious intentions of giving a try to such an exotic language ever since I hadn't succeeded in my Sindarin attempts a couple of years ago, though.  
 And then.. the covid struck.  
 
@@ -138,7 +138,6 @@ In this project I use 2 different Jupyter Notebook hosting services: Google Cola
 * It is not so easy to use additional (.py) files in Google Colab's notebook. This leads to the whole codebase being added to the notebook itself. There is an option to hide the cell's core code, nonetheless, which comes pretty handy.  
 What this means is the pictures will not be a part of a notebook, as well. Which is not the case for MyBinder.
 
----
 <h2 align="center">So, what are you waiting for? Try it out yourself!</h2>
 
 <div align="center">
