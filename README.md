@@ -14,13 +14,16 @@ These kinds of questions are incredibly easy to explore with the help of this to
 
 ---
 <h1 align="center">How to use:</h1>
-<div style="align-items:center;display:flex;flex-wrap:wrap;justify-content:space-around;">
-
-1.Go to one of the interactive notebooks listed above and run the code:  
-![code-cell-highlighted](illustrations/code-cell-highlighted.png)
-
-2.Get the live interactive output. As simple as that!  
-![output](illustrations/output.png) 
+<div align="center">
+  <div>  
+    <b>1. Go to one of the interactive notebooks listed above and run the code:<b><br><br>
+    <img src="source/illustrations/code-cell-highlighted.png" alt="code-cell-highlighted" width="50%"/>
+  </div>
+    
+  <div>
+    <br><b>2. Get the live interactive output. As simple as that!<b><br><br>
+    <img src="source/illustrations/output.png" alt="output" width="50%"/>
+  </div>
 </div>
 
 <h2 align="center">So What Do I Need To Know?</h2>
@@ -43,7 +46,7 @@ You may provide them in many ways:
 You may even open the [main.py](source/main.py) code snippet and choose one of the pre-described people.
 
 <ins>**Don't be afraid** to change the parameters!</ins> This is what actually makes this notebook so interactive and fun!  
-![parameters](illustrations/parameters.png)
+![parameters](source/illustrations/parameters.png)
 
 ---
 <h1 align="center">It all began on a rainy...</h1>
@@ -135,7 +138,7 @@ However, a superior solution existed: Jupyter notebook. This kind of document al
 In this project I use 2 different Jupyter Notebook hosting services: Google Colab & MyBinder. They share a fair amount of similarities, although there are some differences to be noted. Mainly:
 * Google Colab provides us with an extremely convenient way to parametrize the code. Binder does not have this feature and you'll have to change the code manually (even though it's fairly simple and straightforward of a task)
 * MyBinder does not require an account. You might need an existing Google account to use the Colab
-* It is not so easy to use additional (.py) files in Google Colab's notebook. This leads to the whole codebase being added to the notebook itself. There is an option to hide the cell's core code, nonetheless, which comes pretty handy.  
+* It is not so easy to use additional (.py) files in Google Colab's notebook. This leads to the whole codebase being added to the notebook itself. There is an option to hide the cell's core code, nonetheless, which comes in pretty handy.  
 What this means is the pictures will not be a part of a notebook, as well. Which is not the case for MyBinder.
 
 <h2 align="center">So, what are you waiting for? Try it out yourself!</h2>
