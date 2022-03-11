@@ -214,8 +214,8 @@ def search_optimized(qid, sqid, year, name, search_name):
             # now we know this person is a valid descendant so we continue to search up the tree
 
             # add the name to database
-            name = find_name(qid, text)
-            tablichka[qid][1] = name
+            temp_name = find_name(qid, text)
+            tablichka[qid][1] = temp_name
 
             if 'P22' in text['claims']:  # father
                 father = text['claims']['P22'][0]['mainsnak']['datavalue']['value']['id']
@@ -249,10 +249,10 @@ def search_optimized(qid, sqid, year, name, search_name):
         print('\n    ' + search_name)
         found = tablichka[found][0]
         while found is not None:
-            name = tablichka[found][1]
+            temp_name = tablichka[found][1]
             print('              ||          ')
             print('              \\/         ')
-            print('    ' + name)
+            print('    ' + temp_name)
             found = tablichka[found][0]
     else:
         print('\n' + name + ' is not a descendant of ' + search_name)
