@@ -7,8 +7,8 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/l-Fingon-l/Ancestry-by-Wikidata/main?labpath=source%2FRoyal%20Ancestry.ipynb) or
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1B4B5yrb6KoRsJcxEQasX3AnSWWXmohHc?usp=sharing#scrollTo=aTFF2WVgn59W)
 
-Ever wondered if a particular person was a descendant of another? Was curious to find out whether current Prince William is an heir of King James II of England?  
-Or, perhaps, just wanted to examine someone's genealogical tree?  
+Ever wondered if a particular person was a descendant to another one? Was curious to find out whether the current Prince William is an heir to King James II of England?  
+Or perhaps, just wanted to examine someone's genealogical tree?  
 These kinds of questions are incredibly easy to explore with the help of this toolset. Moreover, it can be quite fun and exciting as well!  
 </div>
 
